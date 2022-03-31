@@ -11,9 +11,13 @@
 body {
   width: 100vw;
   height: 100vh;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   background-color: var(--cor-fundo-tela);
-  color: var(--cor-preta);
+}
+
+.root {
+  width: 100%;
+  height: 100%;
 }
 
 body::-webkit-scrollbar {
